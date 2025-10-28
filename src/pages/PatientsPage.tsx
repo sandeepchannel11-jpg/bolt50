@@ -91,7 +91,7 @@ function PatientsPage() {
             id: patientId,
             name: booking.patientName,
             email: booking.patientEmail || patientUser?.email || 'patient@example.com',
-            phone: patientUser?.phone || '+1 (555) 000-0000',
+            phone: patientUser?.phone || '+91 00000 00000',
             age: patientUser?.age || 25,
             joinDate: patientUser?.joinDate || booking.createdAt?.split('T')[0] || '2024-01-01',
             lastSession: lastSession?.date || 'Never',
@@ -101,7 +101,7 @@ function PatientsPage() {
             status: 'active', // Only show active patients since we filter out deleted ones
             emergencyContact: {
               name: patientUser?.emergencyContactEmail?.split('@')[0] || 'Emergency Contact',
-              phone: '+1 (555) 000-0000',
+              phone: '+91 00000 00000',
               relation: patientUser?.emergencyContactRelation || 'Family'
             },
             notes: `Patient has ${completedSessions.length} completed sessions. ${

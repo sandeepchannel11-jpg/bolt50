@@ -61,7 +61,7 @@ function TherapistsManagementPage() {
       id: '2',
       name: 'Dr. Sarah Smith',
       email: 'therapist@example.com',
-      phone: '+1 (555) 234-5678',
+      phone: '+91 98765 43210',
       specialization: 'Cognitive Behavioral Therapy',
       experience: '8 years',
       licenseNumber: 'LIC123456',

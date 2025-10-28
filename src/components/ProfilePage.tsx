@@ -391,7 +391,7 @@ function ProfilePage() {
                   value={formData.phone}
                   onChange={handleInputChange}
                   disabled={!isEditing}
-                  placeholder="+1 (555) 123-4567"
+                  placeholder="+91 98765 43210"
                   className={`w-full px-4 py-3 rounded-xl border transition-all duration-200 ${
                     isEditing
                       ? 'focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent'
